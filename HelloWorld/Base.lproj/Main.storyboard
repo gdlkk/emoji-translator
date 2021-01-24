@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alz-nj-VZ1">
-                                <rect key="frame" x="20" y="65" width="374" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alz-nj-VZ1">
+                                <rect key="frame" x="20" y="64" width="374" height="96"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="👾">
@@ -28,9 +27,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBq-k8-Kqx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rd5-xI-boE">
-                                <rect key="frame" x="20" y="180" width="374" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rd5-xI-boE">
+                                <rect key="frame" x="20" y="180" width="374" height="96"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="👻">
@@ -40,9 +38,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eDd-er-vcJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdl-Tk-L94">
-                                <rect key="frame" x="20" y="410" width="374" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdl-Tk-L94">
+                                <rect key="frame" x="20" y="412" width="374" height="96"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="🤖">
@@ -52,9 +49,8 @@
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLk-LK-WR8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E8-aF-r9e">
-                                <rect key="frame" x="20" y="295" width="374" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E8-aF-r9e">
+                                <rect key="frame" x="20" y="296" width="374" height="96"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="🤓">
@@ -67,6 +63,23 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rd5-xI-boE" secondAttribute="trailing" constant="20" id="9n4-o3-QKc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="alz-nj-VZ1" secondAttribute="trailing" constant="20" id="R6p-b5-2He"/>
+                            <constraint firstItem="rd5-xI-boE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Rnl-ld-kuc"/>
+                            <constraint firstItem="3E8-aF-r9e" firstAttribute="top" secondItem="rd5-xI-boE" secondAttribute="bottom" constant="20" id="V8l-6e-L0D"/>
+                            <constraint firstItem="rd5-xI-boE" firstAttribute="top" secondItem="alz-nj-VZ1" secondAttribute="bottom" constant="20" id="WjS-VR-fzM"/>
+                            <constraint firstItem="rd5-xI-boE" firstAttribute="top" secondItem="alz-nj-VZ1" secondAttribute="bottom" constant="20" id="XMr-ja-ANQ"/>
+                            <constraint firstItem="3E8-aF-r9e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ynf-1C-jzB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jdl-Tk-L94" secondAttribute="trailing" constant="20" id="cMe-DT-O7b"/>
+                            <constraint firstItem="alz-nj-VZ1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eAx-cd-c9p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rd5-xI-boE" secondAttribute="trailing" constant="20" id="fFR-vU-Tmp"/>
+                            <constraint firstItem="Jdl-Tk-L94" firstAttribute="top" secondItem="3E8-aF-r9e" secondAttribute="bottom" constant="20" id="m0F-v7-7e4"/>
+                            <constraint firstItem="Jdl-Tk-L94" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mht-jR-owu"/>
+                            <constraint firstItem="alz-nj-VZ1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mpd-HA-V2G"/>
+                            <constraint firstItem="rd5-xI-boE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qVa-49-eq8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3E8-aF-r9e" secondAttribute="trailing" constant="20" id="tgO-lm-vaN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

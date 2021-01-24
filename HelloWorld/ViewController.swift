@@ -22,7 +22,7 @@ class ViewController: UIViewController {
                                               ]
         let selectedButton = sender
         if let wordToLookup = selectedButton.titleLabel?.text {
-            var meaning = emojiDict[wordToLookup]
+        var meaning = emojiDict[wordToLookup]
         
         let alertController = UIAlertController(title: "Meaning", message: meaning, preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
